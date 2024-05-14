@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #03bb85 /* fallback for old browsers */
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid white; /* Borde de la tabla negro */
+}
+th, td  {
+    border: 3px solid white; /* Líneas internas de la tabla negras */
+    padding: 8px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px; /* Tamaño del texto del botón */
+    color: white;
+}
+th {
+    background-color: white;
+}
+button {
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3; /* Color de fondo azul oscuro al pasar el mouse */
+}

@@ -1,0 +1,38 @@
+/* Estilos para el contenedor principal */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  /* Estilos para el input */
+  #texto {
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para el botón */
+  #btnMostrar {
+    text-align: center; /* Alinea el texto del botón al centro */
+    padding: 10px 20px; /* Agrega espaciado interno al botón */
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /* Estilos para el párrafo */
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+  }
+  h1 {color: white;}
+  label {
+    color: white;
+    font-size: 20px; 
+  }

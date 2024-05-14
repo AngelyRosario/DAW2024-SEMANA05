@@ -1,0 +1,29 @@
+<!--Desarrollar una aplicación para obtener y manipular datos del DOM, mostrando un formulario con 2 input text para el ingreso de numeros
+y mostrar el resultado de la suma.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="Ejercicio03.css">
+</head>
+<body>
+
+    <div class="contenido">
+        <h1>EJERCICIO 03</h1>
+    </div>
+    <h1>Calculadora de Suma</h1>
+  <form id="sumForm">
+    <label for="num1">Número 1:</label>
+    <input type="text" id="num1" name="num1"><br><br>
+    <label for="num2">Número 2:</label>
+    <input type="text" id="num2" name="num2"><br><br>
+    <input type="button" value="Sumar" onclick="sumarNumeros()" id="sumar">
+  </form>
+  <p id="resultado"></p>
+
+    <script src="Ejercicio03.js"></script>
+</body>
+</html>

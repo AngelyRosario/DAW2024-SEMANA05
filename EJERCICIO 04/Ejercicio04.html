@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla de Estudiantes</title>
+<link rel="stylesheet" href="Ejercicio04.css">
+</head>
+<body>
+           <h1>EJERCICIO 04</h1>
+    <table id="tablaEstudiantes">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Apellidos</th>
+                <th>Nombres</th>
+                <th>Dirección</th>
+                <th>Teléfono</th>
+                <th>Acción</th> <!-- Columna para el botón de eliminar -->
+            </tr>
+        </thead>
+        <tbody id="tbodyEstudiantes">
+            <!-- La tabla se llenará dinámicamente con JavaScript -->
+        </tbody>
+    </table>
+    <button onclick="mostrarEstudiante()">Mostrar Siguiente Estudiante</button>
+    <script src="Ejercicio04.js"></script>
+</body>
+</html>
