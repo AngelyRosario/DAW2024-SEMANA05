@@ -1,0 +1,25 @@
+<!--Ejercicio 5.1
+Diseñar una pagina web para manipular el DOM con un botón.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 051-SEMANA 05</title>
+    <link rel="stylesheet" href="Ejercicio 01.css">
+</head>
+<body>
+    <h3 class="titulo">Ejercicio 01: Manipular el HTML con un click</h3>
+    <!-- El botón -->
+    
+    <button type="button" onclick="modificandoDom()"  class="btn">Click</button>
+    <p id="parrafo1"></p> <!-- Agregado un párrafo vacío para modificar -->
+  
+    <script>
+        function modificandoDom() {
+            let parrafo1 = document.getElementById("parrafo1");
+            parrafo1.innerHTML = 'Cambiando el DOM ' + Date();
+        }
+    </script>
+</body>
+</html>
